@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650DD5F91E537201003FE3C0 /* OFAPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 650DD5F71E537201003FE3C0 /* OFAPopulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		650DD5FD1E53721A003FE3C0 /* OFASectionPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 643863BE1AB77374004C84A9 /* OFASectionPopulator.m */; };
+		650DD5FE1E53721A003FE3C0 /* OFACollectionViewSectionPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 643863C21AB77374004C84A9 /* OFACollectionViewSectionPopulator.m */; };
+		650DD5FF1E53721A003FE3C0 /* OFAMinMaxSelectionSectionPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 643863C51AB77374004C84A9 /* OFAMinMaxSelectionSectionPopulator.m */; };
+		650DD6001E53721A003FE3C0 /* OFATableViewSectionPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 643863CD1AB77374004C84A9 /* OFATableViewSectionPopulator.m */; };
+		650DD6011E53721A003FE3C0 /* OFAViewPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 643863CF1AB77374004C84A9 /* OFAViewPopulator.m */; };
+		650DD6021E53721A003FE3C0 /* OFAReorderSectionPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D872EE1AFD743C00D8944D /* OFAReorderSectionPopulator.m */; };
+		650DD6031E53721A003FE3C0 /* OFAAbstractPrivateSectionPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 643863C01AB77374004C84A9 /* OFAAbstractPrivateSectionPopulator.m */; };
+		650DD6041E53721A003FE3C0 /* OFAPrivateCollectionViewSectionPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 643863C71AB77374004C84A9 /* OFAPrivateCollectionViewSectionPopulator.m */; };
+		650DD6051E53721A003FE3C0 /* OFAPrivateTableViewSectionPopulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 643863C91AB77374004C84A9 /* OFAPrivateTableViewSectionPopulator.m */; };
+		650DD60A1E53728F003FE3C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650DD6091E53728F003FE3C0 /* Foundation.framework */; };
+		650DD60B1E53729D003FE3C0 /* OFAPrivateTableViewSectionPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6481B2311C494F64000EAF6B /* OFAPrivateTableViewSectionPopulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		650DD60C1E53729D003FE3C0 /* OFAAbstractPrivateSectionPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6481B2321C494F64000EAF6B /* OFAAbstractPrivateSectionPopulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		650DD60D1E53729D003FE3C0 /* OFAPrivateCollectionViewSectionPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6481B2331C494F64000EAF6B /* OFAPrivateCollectionViewSectionPopulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		650DD60E1E53729D003FE3C0 /* OFAReorderSectionPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 64D872ED1AFD743C00D8944D /* OFAReorderSectionPopulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		650DD60F1E53729D003FE3C0 /* OFACollectionViewSectionPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6438640E1AB78AEA004C84A9 /* OFACollectionViewSectionPopulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		650DD6101E53729D003FE3C0 /* OFADataFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 6438640F1AB78AEA004C84A9 /* OFADataFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		650DD6111E53729D003FE3C0 /* OFAMinMaxSelectionSectionPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 643864101AB78AEA004C84A9 /* OFAMinMaxSelectionSectionPopulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		650DD6121E53729D003FE3C0 /* OFASectionPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 643864111AB78AEA004C84A9 /* OFASectionPopulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		650DD6131E53729D003FE3C0 /* OFASelectableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 643864121AB78AEA004C84A9 /* OFASelectableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		650DD6141E53729D003FE3C0 /* OFATableViewSectionPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 643864131AB78AEA004C84A9 /* OFATableViewSectionPopulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		650DD6151E53729D003FE3C0 /* OFAViewPopulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 643864141AB78AEA004C84A9 /* OFAViewPopulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		650DD6161E53729D003FE3C0 /* OFASectionDataProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 64FD47021ABBABC200F16DDA /* OFASectionDataProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB97FE181E5B178A0049AA00 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C122241AACD8B70071A63F /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		643863BE1AB77374004C84A9 /* OFASectionPopulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OFASectionPopulator.m; path = OFA/OFASectionPopulator.m; sourceTree = "<group>"; };
+		643863C01AB77374004C84A9 /* OFAAbstractPrivateSectionPopulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OFAAbstractPrivateSectionPopulator.m; path = OFA/OFAAbstractPrivateSectionPopulator.m; sourceTree = "<group>"; };
+		643863C21AB77374004C84A9 /* OFACollectionViewSectionPopulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OFACollectionViewSectionPopulator.m; path = OFA/OFACollectionViewSectionPopulator.m; sourceTree = "<group>"; };
+		643863C51AB77374004C84A9 /* OFAMinMaxSelectionSectionPopulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OFAMinMaxSelectionSectionPopulator.m; path = OFA/OFAMinMaxSelectionSectionPopulator.m; sourceTree = "<group>"; };
+		643863C71AB77374004C84A9 /* OFAPrivateCollectionViewSectionPopulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OFAPrivateCollectionViewSectionPopulator.m; path = OFA/OFAPrivateCollectionViewSectionPopulator.m; sourceTree = "<group>"; };
+		643863C91AB77374004C84A9 /* OFAPrivateTableViewSectionPopulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OFAPrivateTableViewSectionPopulator.m; path = OFA/OFAPrivateTableViewSectionPopulator.m; sourceTree = "<group>"; };
+		643863CD1AB77374004C84A9 /* OFATableViewSectionPopulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OFATableViewSectionPopulator.m; path = OFA/OFATableViewSectionPopulator.m; sourceTree = "<group>"; };
+		643863CF1AB77374004C84A9 /* OFAViewPopulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OFAViewPopulator.m; path = OFA/OFAViewPopulator.m; sourceTree = "<group>"; };
+		6438640E1AB78AEA004C84A9 /* OFACollectionViewSectionPopulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFACollectionViewSectionPopulator.h; sourceTree = "<group>"; };
+		6438640F1AB78AEA004C84A9 /* OFADataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFADataFetcher.h; sourceTree = "<group>"; };
+		643864101AB78AEA004C84A9 /* OFAMinMaxSelectionSectionPopulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFAMinMaxSelectionSectionPopulator.h; sourceTree = "<group>"; };
+		643864111AB78AEA004C84A9 /* OFASectionPopulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFASectionPopulator.h; sourceTree = "<group>"; };
+		643864121AB78AEA004C84A9 /* OFASelectableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFASelectableCell.h; sourceTree = "<group>"; };
+		643864131AB78AEA004C84A9 /* OFATableViewSectionPopulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFATableViewSectionPopulator.h; sourceTree = "<group>"; };
+		643864141AB78AEA004C84A9 /* OFAViewPopulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFAViewPopulator.h; sourceTree = "<group>"; };
+		6481B2311C494F64000EAF6B /* OFAPrivateTableViewSectionPopulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFAPrivateTableViewSectionPopulator.h; sourceTree = "<group>"; };
+		6481B2321C494F64000EAF6B /* OFAAbstractPrivateSectionPopulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFAAbstractPrivateSectionPopulator.h; sourceTree = "<group>"; };
+		6481B2331C494F64000EAF6B /* OFAPrivateCollectionViewSectionPopulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFAPrivateCollectionViewSectionPopulator.h; sourceTree = "<group>"; };
+		64C122241AACD8B70071A63F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		64C122261AACD91C0071A63F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		64D872ED1AFD743C00D8944D /* OFAReorderSectionPopulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFAReorderSectionPopulator.h; sourceTree = "<group>"; };
+		64D872EE1AFD743C00D8944D /* OFAReorderSectionPopulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OFAReorderSectionPopulator.m; path = OFA/OFAReorderSectionPopulator.m; sourceTree = "<group>"; };
+		64FD47021ABBABC200F16DDA /* OFASectionDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OFASectionDataProvider.h; sourceTree = "<group>"; };
+		650DD5F51E537201003FE3C0 /* OFAPopulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OFAPopulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		650DD5F71E537201003FE3C0 /* OFAPopulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OFAPopulator.h; sourceTree = "<group>"; };
+		650DD6091E53728F003FE3C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		650DD6171E53753D003FE3C0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB859F901E57202A0001528C /* OFAPopulator.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = OFAPopulator.debug.xcconfig; path = OFAPopulator/OFAPopulator.debug.xcconfig; sourceTree = "<group>"; };
+		CB859F921E57208D0001528C /* OFAPopulator.nightly.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = OFAPopulator.nightly.xcconfig; path = OFAPopulator/OFAPopulator.nightly.xcconfig; sourceTree = "<group>"; };
+		CB859F941E5720A50001528C /* OFAPopulator.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = OFAPopulator.release.xcconfig; path = OFAPopulator/OFAPopulator.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		650DD5F11E537201003FE3C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB97FE181E5B178A0049AA00 /* SystemConfiguration.framework in Frameworks */,
+				650DD60A1E53728F003FE3C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6438640D1AB78AEA004C84A9 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				650DD5F71E537201003FE3C0 /* OFAPopulator.h */,
+				6481B2311C494F64000EAF6B /* OFAPrivateTableViewSectionPopulator.h */,
+				6481B2321C494F64000EAF6B /* OFAAbstractPrivateSectionPopulator.h */,
+				6481B2331C494F64000EAF6B /* OFAPrivateCollectionViewSectionPopulator.h */,
+				64D872ED1AFD743C00D8944D /* OFAReorderSectionPopulator.h */,
+				6438640E1AB78AEA004C84A9 /* OFACollectionViewSectionPopulator.h */,
+				6438640F1AB78AEA004C84A9 /* OFADataFetcher.h */,
+				643864101AB78AEA004C84A9 /* OFAMinMaxSelectionSectionPopulator.h */,
+				643864111AB78AEA004C84A9 /* OFASectionPopulator.h */,
+				643864121AB78AEA004C84A9 /* OFASelectableCell.h */,
+				643864131AB78AEA004C84A9 /* OFATableViewSectionPopulator.h */,
+				643864141AB78AEA004C84A9 /* OFAViewPopulator.h */,
+				64FD47021ABBABC200F16DDA /* OFASectionDataProvider.h */,
+			);
+			name = Header;
+			path = OFA/Header;
+			sourceTree = "<group>";
+		};
+		644676A71AA50163005B456C = {
+			isa = PBXGroup;
+			children = (
+				64C122261AACD91C0071A63F /* AssetsLibrary.framework */,
+				64C122241AACD8B70071A63F /* SystemConfiguration.framework */,
+				644676B21AA50163005B456C /* OFAPopulator */,
+				650DD5F61E537201003FE3C0 /* OFAPopulator */,
+				644676B11AA50163005B456C /* Products */,
+				CB859F8F1E571FC80001528C /* Target Support Files */,
+				650DD6081E53728F003FE3C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		644676B11AA50163005B456C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				650DD5F51E537201003FE3C0 /* OFAPopulator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644676B21AA50163005B456C /* OFAPopulator */ = {
+			isa = PBXGroup;
+			children = (
+				6486FF331AA9EB580032D6F0 /* OFA */,
+			);
+			path = OFAPopulator;
+			sourceTree = "<group>";
+		};
+		6486FF331AA9EB580032D6F0 /* OFA */ = {
+			isa = PBXGroup;
+			children = (
+				6486FF351AA9EBEC0032D6F0 /* Public Interface */,
+				6486FF341AA9EB740032D6F0 /* Private Interface */,
+			);
+			name = OFA;
+			sourceTree = "<group>";
+		};
+		6486FF341AA9EB740032D6F0 /* Private Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Private Interface";
+			sourceTree = "<group>";
+		};
+		6486FF351AA9EBEC0032D6F0 /* Public Interface */ = {
+			isa = PBXGroup;
+			children = (
+				6438640D1AB78AEA004C84A9 /* Header */,
+				643863BE1AB77374004C84A9 /* OFASectionPopulator.m */,
+				643863C21AB77374004C84A9 /* OFACollectionViewSectionPopulator.m */,
+				643863C51AB77374004C84A9 /* OFAMinMaxSelectionSectionPopulator.m */,
+				643863CD1AB77374004C84A9 /* OFATableViewSectionPopulator.m */,
+				643863CF1AB77374004C84A9 /* OFAViewPopulator.m */,
+				64D872EE1AFD743C00D8944D /* OFAReorderSectionPopulator.m */,
+				643863C01AB77374004C84A9 /* OFAAbstractPrivateSectionPopulator.m */,
+				643863C71AB77374004C84A9 /* OFAPrivateCollectionViewSectionPopulator.m */,
+				643863C91AB77374004C84A9 /* OFAPrivateTableViewSectionPopulator.m */,
+			);
+			name = "Public Interface";
+			sourceTree = "<group>";
+		};
+		650DD5F61E537201003FE3C0 /* OFAPopulator */ = {
+			isa = PBXGroup;
+			children = (
+				650DD6171E53753D003FE3C0 /* Info.plist */,
+			);
+			path = OFAPopulator;
+			sourceTree = "<group>";
+		};
+		650DD6081E53728F003FE3C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				650DD6091E53728F003FE3C0 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB859F8F1E571FC80001528C /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB859F901E57202A0001528C /* OFAPopulator.debug.xcconfig */,
+				CB859F921E57208D0001528C /* OFAPopulator.nightly.xcconfig */,
+				CB859F941E5720A50001528C /* OFAPopulator.release.xcconfig */,
+			);
+			name = "Target Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		650DD5F21E537201003FE3C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650DD5F91E537201003FE3C0 /* OFAPopulator.h in Headers */,
+				650DD60B1E53729D003FE3C0 /* OFAPrivateTableViewSectionPopulator.h in Headers */,
+				650DD60C1E53729D003FE3C0 /* OFAAbstractPrivateSectionPopulator.h in Headers */,
+				650DD60D1E53729D003FE3C0 /* OFAPrivateCollectionViewSectionPopulator.h in Headers */,
+				650DD60E1E53729D003FE3C0 /* OFAReorderSectionPopulator.h in Headers */,
+				650DD60F1E53729D003FE3C0 /* OFACollectionViewSectionPopulator.h in Headers */,
+				650DD6101E53729D003FE3C0 /* OFADataFetcher.h in Headers */,
+				650DD6111E53729D003FE3C0 /* OFAMinMaxSelectionSectionPopulator.h in Headers */,
+				650DD6121E53729D003FE3C0 /* OFASectionPopulator.h in Headers */,
+				650DD6131E53729D003FE3C0 /* OFASelectableCell.h in Headers */,
+				650DD6141E53729D003FE3C0 /* OFATableViewSectionPopulator.h in Headers */,
+				650DD6151E53729D003FE3C0 /* OFAViewPopulator.h in Headers */,
+				650DD6161E53729D003FE3C0 /* OFASectionDataProvider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		650DD5F41E537201003FE3C0 /* OFAPopulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650DD5FA1E537201003FE3C0 /* Build configuration list for PBXNativeTarget "OFAPopulator" */;
+			buildPhases = (
+				650DD5F01E537201003FE3C0 /* Sources */,
+				650DD5F11E537201003FE3C0 /* Frameworks */,
+				650DD5F21E537201003FE3C0 /* Headers */,
+				650DD5F31E537201003FE3C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OFAPopulator;
+			productName = OFAPopulator;
+			productReference = 650DD5F51E537201003FE3C0 /* OFAPopulator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		644676A81AA50163005B456C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = com.vs;
+				TargetAttributes = {
+					650DD5F41E537201003FE3C0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 644676AB1AA50163005B456C /* Build configuration list for PBXProject "OFAPopulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 644676A71AA50163005B456C;
+			productRefGroup = 644676B11AA50163005B456C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				650DD5F41E537201003FE3C0 /* OFAPopulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		650DD5F31E537201003FE3C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		650DD5F01E537201003FE3C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650DD5FD1E53721A003FE3C0 /* OFASectionPopulator.m in Sources */,
+				650DD5FE1E53721A003FE3C0 /* OFACollectionViewSectionPopulator.m in Sources */,
+				650DD5FF1E53721A003FE3C0 /* OFAMinMaxSelectionSectionPopulator.m in Sources */,
+				650DD6001E53721A003FE3C0 /* OFATableViewSectionPopulator.m in Sources */,
+				650DD6011E53721A003FE3C0 /* OFAViewPopulator.m in Sources */,
+				650DD6021E53721A003FE3C0 /* OFAReorderSectionPopulator.m in Sources */,
+				650DD6031E53721A003FE3C0 /* OFAAbstractPrivateSectionPopulator.m in Sources */,
+				650DD6041E53721A003FE3C0 /* OFAPrivateCollectionViewSectionPopulator.m in Sources */,
+				650DD6051E53721A003FE3C0 /* OFAPrivateTableViewSectionPopulator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		644676D11AA50163005B456C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "${SRCROOT}/../ofapopulator";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		644676D21AA50163005B456C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "${SRCROOT}/../ofapopulator";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		650DD5FB1E537201003FE3C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB859F901E57202A0001528C /* OFAPopulator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = OFAPopulator/Info.plist;
+				INSTALL_PATH = Library/Frameworks;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blinkslabs.OFAPopulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		650DD5FC1E537201003FE3C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB859F941E5720A50001528C /* OFAPopulator.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = OFAPopulator/Info.plist;
+				INSTALL_PATH = Library/Frameworks;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blinkslabs.OFAPopulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB69D29A1E54AB860067CA3B /* Nightly */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = "${SRCROOT}/../ofapopulator";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Nightly;
+		};
+		CB69D29C1E54AB860067CA3B /* Nightly */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB859F921E57208D0001528C /* OFAPopulator.nightly.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = OFAPopulator/Info.plist;
+				INSTALL_PATH = Library/Frameworks;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blinkslabs.OFAPopulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Nightly;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		644676AB1AA50163005B456C /* Build configuration list for PBXProject "OFAPopulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644676D11AA50163005B456C /* Debug */,
+				CB69D29A1E54AB860067CA3B /* Nightly */,
+				644676D21AA50163005B456C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650DD5FA1E537201003FE3C0 /* Build configuration list for PBXNativeTarget "OFAPopulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650DD5FB1E537201003FE3C0 /* Debug */,
+				CB69D29C1E54AB860067CA3B /* Nightly */,
+				650DD5FC1E537201003FE3C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 644676A81AA50163005B456C /* Project object */;
+}
