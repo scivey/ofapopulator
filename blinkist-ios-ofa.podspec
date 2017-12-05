@@ -24,9 +24,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "A fork of the OFA Populator offers an easy to implement yet powerful way to populate table and collection views."
+  s.description  = "OFA Populator offers an easy to implement yet powerful way to populate table and collection views. Using the Adapter Pattern the goal of OFA is to make the hassle of populating table and collection views go away and get easy to subclass and reusable components. Without harming MVC or limit the delegate/datasource pattern"
 
-  s.homepage     = "http://vikingosegundo.github.io/ofapopulator"
+  s.homepage     = "https://github.com/vikingosegundo/ofapopulator"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/adimango/blinkist-ios-ofa.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/blinkist/ofapopulator.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
